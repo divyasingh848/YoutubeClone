@@ -1,0 +1,25 @@
+/* .videoCard{
+    /* width: 400px; */
+    /* height: 600px; */
+/* }  */
+
+.videoCard__Thumbnail{
+  height: 140px;
+  width: 200px;
+  margin-right: 10px;
+  margin-top: 25px;
+}
+
+.videoCard__info{
+    display: flex;
+    align-items: center;
+}
+
+.video__text p{
+    margin: 3px;
+    color: gray;
+}
+
+.video__text h4{
+    margin: 5px;
+}

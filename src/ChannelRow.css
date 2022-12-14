@@ -1,0 +1,12 @@
+.ChannelRow{
+    display: flex;
+    /* align-items: center; */
+}
+
+.ChannelRow__first {
+    display: flex;
+    align-items: center;
+    width: 120px !important;
+    height: 120px !important;
+    margin: 10px 60px !important;
+}

@@ -1,0 +1,61 @@
+.SidebarRow{
+    display: flex;
+    align-items: center;
+    padding: 1px 20px;
+    margin: 5px !important;
+}
+
+.SidebarRow h3{
+    margin: 10px; 
+ }
+
+.SidebarRow__icon{
+    color: #606060;
+    font-size: large !important;
+}
+
+.SidebarRow__title{
+    flex: 1;
+    margin-left: 25px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.SidebarRow h3{
+    font-weight: 300; 
+}
+
+.SidebarRow h3:hover{
+    font-weight: 500; 
+}
+
+.SidebarRow:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.SidebarRow:hover > .SidebarRow__icon{
+    color: red;
+}
+
+.SidebarRow:hover > .SidebarRow__title{
+    font-weight: bold;
+}
+
+.SidebarRow.selected{
+    background-color: lightgray;
+}
+
+.SidebarRow.selected > .SidebarRow__icon{
+    color: red;
+}
+
+.SidebarRow.selected > .SidebarRow__title{
+    font-weight: bold;
+}
+
+.Sidebar > hr{
+    height: 1px;
+    border: 0;
+    background-color: gray;
+} 
